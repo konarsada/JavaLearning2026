@@ -22,6 +22,7 @@ public class WrapperClass {
          * Java performs autoboxing, effectively creating/referencing an Integer object containing 40 and assigning its reference to the local variable i2
          */
         i2 = 50;
+        i2 = Integer.valueOf(50); // same as i2 = 50
         i3.set(60);
     }
 }
